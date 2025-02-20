@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Recipes</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .recipe-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .recipe-card {
+            background-color: white;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .recipe-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .recipe-card h3 {
+            margin: 15px 0;
+            font-size: 22px;
+        }
+
+        .recipe-card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Home Recipes</h1>
+        <p>Your favorite home-cooked meals</p>
+    </header>
+
+    <!-- Recipe Section -->
+    <div class="recipe-container">
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250x150" alt="Recipe 1">
+            <h3>Goobi manchurian</h3>
+            <img src="https://t4.ftcdn.net/jpg/09/92/43/67/360_F_992436744_PpWxUmJuz3t685ZdsaHN3THIVEEg1wsL.jpg" alt="">
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250x150" alt="Recipe 2">
+            <h3>Panipuri</h3>
+            <img src="https://media.istockphoto.com/id/1314329942/photo/goal-gappa-or-pani-puri.jpg?s=612x612&w=0&k=20&c=l6akiKMfTLE9nR4VonhiOZpZGDY4aEjimAN-BSskF-A=" alt="">
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250x150" alt="Recipe 3">
+            <h3>Kabaab</h3>
+            <img src="https://www.shutterstock.com/image-photo/deliciously-spiced-chicken-tikka-kabab-600nw-2495838035.jpg" alt="">
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250x150" alt="Recipe 4">
+            <h3>Vada pav</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZi3NCErdzZvWK09oIERqjI1RTkTRuHvuWw&s" alt="">
+        </div>
+
+        <div class="recipe-card">
+            <img src="https://via.placeholder.com/250x150" alt="Recipe 5">
+            <h3>Egg rice</h3>
+            <img src="https://i.ytimg.com/vi/ofnROgCyc9M/maxresdefault.jpg" alt="">
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made with ❤️ by Sneha</p>
+        <p>Want to contribute? <a href="#">Contact Us</a></p>
+    </footer>
+</body>
+</html>
